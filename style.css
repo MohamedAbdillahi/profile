@@ -1,0 +1,75 @@
+body {
+
+  background-image: url("https://images.unsplash.com/photo-1516767784670-cfc730ed0f87?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80");
+  background-size:contain;
+  background-position: center;
+
+
+}
+.container {
+  text-align: center;
+  height: 400px;
+  padding: 100px;
+  margin: 50px;
+}
+p {
+      padding: 20px;
+      color: white;
+}
+.card {
+  padding: 20px;
+}
+h1 {
+  color: white ;
+  font-size: 70 px  ;
+  font-weight:900 ;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  color: white ;
+  text-decoration: none;
+  background-color: rgba(0, 0, 255, 0.466);
+  font-weight: bold;
+  padding: 14px 20px
+
+}
+a:hover {
+  background-color : #f16b1d;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.list-style > li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.card-list {
+ text-align: center;
+ background-color: grey;
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+}
+/* @media (max-width: 960px) { */
+  /* For a screen < 960px, this CSS will be read */
+  /* .container { */
+    /* width: 300px; */
+  /* } */
+
+  /* } */
+  /* @media (max-width: 600px) { */ */
+  /* For a screen < 960px, this CSS will be read */
+  /* .container { */
+    /* background-color: #2621B5; */
+  /* } */
+  /* .container p{ */
+    /* color:teal */
+  /* } */
+  /* a:hover{ */
+    /* background-color: #B4B4C2; */
+  /* } */
+/* .card{ */
+  /* background-color: #2621B5; */
+/* } */
+/* } */
